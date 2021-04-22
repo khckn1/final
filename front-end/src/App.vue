@@ -108,6 +108,7 @@
   .direct-contact, .social-media, .right-box {
     text-align: left;
     padding: 5px;
+    width: 25%;
   }
 
   .link:visited, .link:link {
