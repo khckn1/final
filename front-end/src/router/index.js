@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Post from "../views/Post.vue";
 import Login from "../components/Login.vue";
 import Create from "../views/Create.vue";
+import Review from "../views/Review.vue";
 
 
 Vue.use(VueRouter);
@@ -28,6 +29,11 @@ const routes = [
     path: "/Create",
     name: "Create",
     component: Create,
+  },
+  {
+    path: "/Review",
+    name: "Review",
+    component: Review,
   }
 ];
 

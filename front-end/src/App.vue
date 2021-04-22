@@ -10,7 +10,7 @@
           <b-navbar-nav>
             <b-nav-item href="/">Home</b-nav-item>
             <b-nav-item href='/Create'>Create Post</b-nav-item>
-            <b-nav-item href="#">Assignment Review</b-nav-item>
+            <b-nav-item href="/Review">Assignment Review</b-nav-item>
             <b-nav-item v-if="user" @click="logout">Logout</b-nav-item>
             <b-nav-item v-else href="/Login">Login</b-nav-item>
           </b-navbar-nav>
