@@ -78,7 +78,6 @@
             password: this.passwordLogin,
           });
           this.$root.$data.user = response.data.user;
-          console.log(this.$root.$data.user);
         } catch (error) {
           this.errorLogin = "Error: " + error.response.data.message;
           this.$root.$data.user = null;
